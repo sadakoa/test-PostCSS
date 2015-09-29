@@ -33,9 +33,7 @@ resolution
 
 src/css
 
-    `@for $i from 1 to 5 {
-  .test-$i { margin: $(i)px; }
-  }`
+    `@for $i from 1 to 5 { .test-$i { margin: $(i)px; } }`
 
 
 build/css
